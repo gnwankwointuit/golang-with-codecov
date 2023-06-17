@@ -1,0 +1,6 @@
+# Ignore IDEA (Jetbrains) files
+.idea
+*/.idea
+*.iml
+
+.cache/
