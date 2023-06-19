@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eux
+set -o pipefail
+
+go test -race -coverprofile=coverage.txt -covermode=atomic -v -mod=vendor ./...
